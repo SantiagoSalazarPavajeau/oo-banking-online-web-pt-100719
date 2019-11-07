@@ -26,7 +26,7 @@ class Transfer
     else 
       @sender.close_account
       @status = 'rejected'
-      p "Transaction rejected. Please check your account balance."
+      puts "Transaction rejected. Please check your account balance."
     end
   end
   
